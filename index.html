@@ -1,75 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Personal Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
-            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #ADD8E6;
+
+        header {
+            background-color: #3498db;
+            color: #fff;
             padding: 20px;
         }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
-            padding: 15px;
+
+        h1 {
             margin-bottom: 10px;
+        }
+
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="main-info">
-            <h1>Alex Hernandez</h1>
-            <h1>Preferred Name: Alex</h1>
-        </header>
+    <header>
+        <h1>Your Full Name</h1>
+        <p><a href="mailto:your.email@lewisu.edu">your.email@lewisu.edu</a></p>
+        <p>Your Discord: YourDiscordUsername#1234</p>
+    </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: Second year</h2>
-			<h2>Lewis major/minor/concentrations: Major in Computer Science</h2>
-			<h2>Reasons for pursuing this degree: I enjoy working with software and understanding how it works when it comes to programming and User Experience</h2>
-        </section>
+    <section>
+        <img src="your-photo.jpg" alt="Your Name">
+        <h2>Introduction</h2>
+        <p>
+            Hi, I'm Your Name! I come from a wonderful family, and I'm currently pursuing my major/minor at Lewis University.
+        </p>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>
-		<ul>
-			<li>More experience with group work when it comes to software development</li>
-		</ul>
-	    </p>
-        </section>
+        <h2>What I Hope to Learn in this Course</h2>
+        <ul>
+            <li>HTML and CSS best practices</li>
+            <li>Responsive web design</li>
+            <li>JavaScript basics</li>
+            <!-- Add more topics as needed -->
+        </ul>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>I currently am the Front Desk Manager for a Hilton hotel and have been there for 7 years</p>
-        </section>		
+        <h2>My Favorite Hobby / Activity</h2>
+        <p>
+            One of my favorite hobbies is [describe your favorite hobby or activity]. It brings me joy and relaxation whenever I engage in it.
+        </p>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>
-		<ul>
-			<li>Exercise</li>
-			<li>Video Games</li>
-			<li>Music</li>
-		</ul>
-	    </p>
-        </section>
-
-        <section class="fun-fact">
-            <h2>Fun Fact</h2>
-            <p>I have run two half marathons, and both were ran in Kuwait.</p>
-        </section>
-    </div>
+        <h2>Fun Fact</h2>
+        <p>
+            Fun fact about me: [share something unique or interesting about yourself].
+        </p>
+    </section>
 </body>
 </html>
